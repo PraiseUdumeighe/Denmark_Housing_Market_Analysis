@@ -9,15 +9,15 @@ The objective is to transform raw transactional data into actionable insigts tha
 ---
 
 ## 🎛️ Table of Contents
-- [Project Overview](#project_overview)
-- [Dataset](#dataset)
-- [Tools Used](#tools-used)
-- [Data Cleaning](#data-cleaning)
-- [Data Model/Measures Table](#data-model/measures-table)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Key Insights](#key-insights)
+- [Project Overview](#-project_overview)
+- [Dataset](#-dataset)
+- [Tools Used](#-tools-used)
+- [Data Cleaning](#-data-cleaning)
+- [Data Model/Measures Table](#-data-model/measures-table)
+- [Exploratory Data Analysis](#-exploratory-data-analysis)
+- [Key Insights](#-key-insights)
 - [Dashboard](#-dashboard)
-- [Recommendations](#recommendations)
+- [Recommendations](#-recommendations)
 
 
 ## 📂 Dataset
