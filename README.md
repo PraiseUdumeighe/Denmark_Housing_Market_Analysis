@@ -13,7 +13,7 @@ The objective is to transform raw transactional data into actionable insigts tha
 - [Dataset](#-dataset)
 - [Tools Used](#-tools-used)
 - [Data Cleaning](#-data-cleaning)
-- [Data Model/Measures Table](#-data-model/measures-table)
+- [Data Model/Measures Table](#-data-model-measures-table)
 - [Exploratory Data Analysis](#-exploratory-data-analysis)
 - [Key Insights](#-key-insights)
 - [Dashboard](#-dashboard)
