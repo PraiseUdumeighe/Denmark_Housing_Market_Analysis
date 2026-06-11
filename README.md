@@ -14,9 +14,9 @@ The objective is to transform raw transactional data into actionable insigts tha
 - [Tools Used](#tools-used)
 - [Data Cleaning](#data-cleaning)
 - [Data Model/Measures Table](#data-model/measures-table)
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-(eda))
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Key Insights](#key-insights)
-- [Dashboard](#dashboard)
+- [Dashboard](#-dashboard)
 - [Recommendations](#recommendations)
 
 
@@ -83,7 +83,7 @@ The dataset captures detailed housing market transactions across Denmark, includ
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis
 - Property listing prices closely align with the final purchase price, suggesting a highly efficient pricing market.
 - A strong positive relationship exists between property size and purchase price.
 - Zealand records the highest total sales value, making it the most dominant region in the housing market.
