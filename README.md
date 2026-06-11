@@ -115,7 +115,7 @@ Interactive filters were implemented to support dynamic exploration of market tr
 ### Dashboard 1: Market Overview
 ![Dashboard 1](images/Denmark_House_Market_Overview.png)
 
-###Dashboard 2: Sales Performance
+### Dashboard 2: Sales Performance
 ![Dashboard 2](images/Denmark_House_Sales_Performance.png)
 
 ### Dashboard 3: House Type Analysis
