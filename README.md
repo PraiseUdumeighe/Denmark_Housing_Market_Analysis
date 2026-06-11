@@ -1,25 +1,26 @@
-# Denmark Housing Market Analysis: Property Sales, Pricing and Economic Factors
+# Denmark Housing Market Analysis
+## Property Sales, Pricing and Economic Factors
 
-## Project Overview
+## 📝 Project Overview
 This project analyzes the Denmark housing market to uncover key drivers of property prices, regional performance differences, sales behaviour and the impact of macroeconomic indicators such as interest rates, inflation and mortgage bond yields.
 
 The objective is to transform raw transactional data into actionable insigts that support strategic decision-making for home buyers, investors, developers and policymakers.
 
 ---
 
-## Table of Contents
-- [Project Overview](project_overview)
-- [Dataset](dataset)
-- [Tools Used](tools_used)
-- [Data Cleaning](data_cleaning)
-- [Data Model/Measures Table](data_model/measures_table)
-- [Exploratory Data Analysis (EDA)](exploratory_data_analysis_(eda))
-- [Key Insights](key_insights)
-- [Dashboard](dashboard)
-- [Recommendations](recommendations)
+## 🎛️ Table of Contents
+- [Project Overview](#project_overview)
+- [Dataset](#dataset)
+- [Tools Used](#tools-used)
+- [Data Cleaning](#data-cleaning)
+- [Data Model/Measures Table](#data-model/measures-table)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-(eda))
+- [Key Insights](#key-insights)
+- [Dashboard](#dashboard)
+- [Recommendations](#recommendations)
 
 
-## Dataset
+## 📂 Dataset
 
 ### Data Source
 Dataset provided through a structured Udemy analytics training program.
@@ -44,7 +45,7 @@ The dataset captures detailed housing market transactions across Denmark, includ
 
 ---
 
-## Tools Used
+## 🛠️ Tools Used
 - Google BigQuery - Data Storage and initial data loading.
 - Power BI 
 	- Data cleaning, transformation (Power Query Editor)
@@ -53,7 +54,7 @@ The dataset captures detailed housing market transactions across Denmark, includ
 
 ---
 
-## Data Cleaning
+## 🧹 Data Cleaning
 - Replaced null values in the City column with "Unknown"
 - Replaced null values in the Dk_ann_infl_rate% column with the highest available value
 - Replaced null values in the Yield_on_mortgage_credit_bonds% column with the highest available value
@@ -61,7 +62,7 @@ The dataset captures detailed housing market transactions across Denmark, includ
 
 ---
 
-## Data Model/Measures Table
+## 🧠 Data Model/Measures Table
 
 ### Key Measures Used
 
@@ -76,9 +77,13 @@ The dataset captures detailed housing market transactions across Denmark, includ
 |Units Sold in Latest Year & Quarter|Property sales in latest period|
 |YOY Sales Growth|Year-over-year growth in sales|
 
+### Measures Table
+![Measures Table](images/Denmark_House_Market_DAX_MeasuresTable.png)
+
+
 ---
 
-## Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 - Property listing prices closely align with the final purchase price, suggesting a highly efficient pricing market.
 - A strong positive relationship exists between property size and purchase price.
 - Zealand records the highest total sales value, making it the most dominant region in the housing market.
@@ -88,7 +93,7 @@ The dataset captures detailed housing market transactions across Denmark, includ
 
 ---
 
-## Key Insights
+## 🔍 Key Insights
 - Jutland recorded the highest median price growth, indicating strong emerging demand.
 -Bornholm shows sustained underperformance in both growth and transaction volume, suggesting weaker demand conditions. 
 - There is a strong correlation between the offer prices and final purchase prices, showing an efficient pricing market.
@@ -98,7 +103,7 @@ The dataset captures detailed housing market transactions across Denmark, includ
 
 ---
 
-## Dashboard
+## 📊 Dashboard
 An interactive Power BI report was developed to provide a multi-dimensional view of the Danish housing market, including:
 - Regional price and sales performance
 - Property type analysis
@@ -107,21 +112,30 @@ An interactive Power BI report was developed to provide a multi-dimensional view
 The dashboard enables dynamic exploration of market behaviour across time, geography and property segments.
 Interactive filters were implemented to support dynamic exploration of market trends across locations and sales type.
 
+### Dashboard 1: Market Overview
+![Dashboard 1](images/Denmark_House_Market_Overview.png)
+
+###Dashboard 2: Sales Performance
+![Dashboard 2](images/Denmark_House_Sales_Performance.png)
+
+### Dashboard 3: House Type Analysis
+![Dashboard 3](images/Denmark_House_Type_Analysis.png)
+
 ---
 
-## Recommendations
-For Home Buyers
+## 💡 Recommendations
+🏡 For Home Buyers
 - Evaluate price per square meter before making purchasing decisions
 - Consider regions outside Zealand for more affordable housing options
 
-For Investors
+📈 For Investors
 - Prioritize high-growth regions such as Jutland and Zealand
 - Monitor underperforming regions like Borholm for potential value-driven entry points.
 
-For Developers
+🏗️ For Developers
 - Prioritize development in regions with strong demand and high sales volume.
 - Investigate drivers of weak performance in Bornholm before expansion.
 
-For Policymakers
+🏛️ For Policymakers
 - Address affordability pressures in high-prized regions such as Zealand.
 - Support economic growth in slower-performing regions to balance housing demand.
