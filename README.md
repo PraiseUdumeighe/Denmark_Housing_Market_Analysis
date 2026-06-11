@@ -11,7 +11,7 @@ The objective is to transform raw transactional data into actionable insigts tha
 ## 🎛️ Table of Contents
 - [Project Overview](#-project_overview)
 - [Dataset](#-dataset)
-- [Tools Used](#🛠️tools-used)
+- [Tools Used](#-tools-used)
 - [Data Cleaning](#-data-cleaning)
 - [Data Model/Measures Table](#-data-modelmeasures-table)
 - [Exploratory Data Analysis](#-exploratory-data-analysis)
